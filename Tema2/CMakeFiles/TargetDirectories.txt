@@ -1,0 +1,3 @@
+/home/alexandra/Desktop/IEP/IEP-1/Tema2/CMakeFiles/edit_cache.dir
+/home/alexandra/Desktop/IEP/IEP-1/Tema2/CMakeFiles/rebuild_cache.dir
+/home/alexandra/Desktop/IEP/IEP-1/Tema2/CMakeFiles/tema1.dir
