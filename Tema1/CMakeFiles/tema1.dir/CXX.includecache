@@ -6,3 +6,31 @@
 
 #IncludeRegexTransform: 
 
+/home/alexandra/Documents/GitHub/IEP/Tema1/books.cpp
+ebooks.hpp
+/home/alexandra/Documents/GitHub/IEP/Tema1/ebooks.hpp
+
+/home/alexandra/Documents/GitHub/IEP/Tema1/books.hpp
+iostream
+-
+map
+-
+list
+-
+string
+-
+iterator
+-
+memory
+-
+
+/home/alexandra/Documents/GitHub/IEP/Tema1/ebooks.cpp
+iostream
+-
+ebooks.hpp
+/home/alexandra/Documents/GitHub/IEP/Tema1/ebooks.hpp
+
+/home/alexandra/Documents/GitHub/IEP/Tema1/ebooks.hpp
+books.hpp
+/home/alexandra/Documents/GitHub/IEP/Tema1/books.hpp
+

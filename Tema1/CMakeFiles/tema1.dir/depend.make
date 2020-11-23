@@ -3,4 +3,9 @@
 
 CMakeFiles/tema1.dir/books.cpp.o: books.cpp
 CMakeFiles/tema1.dir/books.cpp.o: books.hpp
+CMakeFiles/tema1.dir/books.cpp.o: ebooks.hpp
+
+CMakeFiles/tema1.dir/ebooks.cpp.o: books.hpp
+CMakeFiles/tema1.dir/ebooks.cpp.o: ebooks.cpp
+CMakeFiles/tema1.dir/ebooks.cpp.o: ebooks.hpp
 

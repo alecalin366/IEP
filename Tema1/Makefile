@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/alexandra/Desktop/IEPtema1/Books
+CMAKE_SOURCE_DIR = /home/alexandra/Documents/GitHub/IEP/Tema1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/alexandra/Desktop/IEPtema1/Books
+CMAKE_BINARY_DIR = /home/alexandra/Documents/GitHub/IEP/Tema1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexandra/Desktop/IEPtema1/Books/CMakeFiles /home/alexandra/Desktop/IEPtema1/Books/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexandra/Documents/GitHub/IEP/Tema1/CMakeFiles /home/alexandra/Documents/GitHub/IEP/Tema1/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexandra/Desktop/IEPtema1/Books/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alexandra/Documents/GitHub/IEP/Tema1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ books.cpp.s:
 	$(MAKE) -f CMakeFiles/tema1.dir/build.make CMakeFiles/tema1.dir/books.cpp.s
 .PHONY : books.cpp.s
 
+ebooks.o: ebooks.cpp.o
+
+.PHONY : ebooks.o
+
+# target to build an object file
+ebooks.cpp.o:
+	$(MAKE) -f CMakeFiles/tema1.dir/build.make CMakeFiles/tema1.dir/ebooks.cpp.o
+.PHONY : ebooks.cpp.o
+
+ebooks.i: ebooks.cpp.i
+
+.PHONY : ebooks.i
+
+# target to preprocess a source file
+ebooks.cpp.i:
+	$(MAKE) -f CMakeFiles/tema1.dir/build.make CMakeFiles/tema1.dir/ebooks.cpp.i
+.PHONY : ebooks.cpp.i
+
+ebooks.s: ebooks.cpp.s
+
+.PHONY : ebooks.s
+
+# target to generate assembly for a file
+ebooks.cpp.s:
+	$(MAKE) -f CMakeFiles/tema1.dir/build.make CMakeFiles/tema1.dir/ebooks.cpp.s
+.PHONY : ebooks.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... books.o"
 	@echo "... books.i"
 	@echo "... books.s"
+	@echo "... ebooks.o"
+	@echo "... ebooks.i"
+	@echo "... ebooks.s"
 .PHONY : help
 
 

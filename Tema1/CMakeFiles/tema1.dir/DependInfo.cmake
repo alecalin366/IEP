@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/alexandra/Desktop/IEPtema1/Books/books.cpp" "/home/alexandra/Desktop/IEPtema1/Books/CMakeFiles/tema1.dir/books.cpp.o"
+  "/home/alexandra/Documents/GitHub/IEP/Tema1/books.cpp" "/home/alexandra/Documents/GitHub/IEP/Tema1/CMakeFiles/tema1.dir/books.cpp.o"
+  "/home/alexandra/Documents/GitHub/IEP/Tema1/ebooks.cpp" "/home/alexandra/Documents/GitHub/IEP/Tema1/CMakeFiles/tema1.dir/ebooks.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
